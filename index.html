@@ -6,10 +6,10 @@
     <title>Travel Templete with Tailwind and Js</title>
     <link rel="stylesheet" href="src/output.css">
 </head>
-<body>
+<body class="bg-[#f1f1f1]">
 
     <!--Logo start-->
-    <div class="py-5 mb-5">
+    <div class="py-5 mb-5 bg-white">
     <div class=" cursor-pointer float-left flex text-red-500 mx-3 hover:bg-red-500 hover:text-white hover:w-24">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-8">
             <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
@@ -45,19 +45,19 @@
                             <div class="bg-white">
                                 <h1 class=" text-3xl text-slate-800 ml-3 pt-4">Travel the world with us</h1>
                                 
-                                <div class="flex pt-4 ml-3 mr-3 text-slate-700">
-                                <div class="float-left">
+                                <div class="flex pt-4 ml-4 mr-3 text-slate-700">
+                                <div class="float-left w-full">
                                     <p>From</p>
-                                    <input type="text" class=" h-10 border border-slate-400" placeholder="Departing from">
+                                    <input type="text" class="w-full h-10 border border-slate-400" placeholder="Departing from">
                                 </div>
 
-                                <div class="float-end">
+                                <div class="float-end w-full ml-3">
                                     <p>To</p>
-                                    <input type="text" class=" ml-3 w-full  h-10 border border-slate-400" placeholder="Arriving at">
+                                    <input type="text" class="w-full  h-10 border border-slate-400" placeholder="Arriving at">
                                 </div>
                                 </div>
 
-                                <button onclick="searchDates()" class="bg-[#616161] rounded-sm mt-4 py-2 px-4 mb-4 ml-3 text-lg text-white hover:bg-[#CCCCCC] hover:text-black">Search and find dates</button>
+                                <button onclick="searchDates()" class="bg-[#616161] rounded-sm mt-4 py-2 px-4 mb-4 ml-4 text-lg text-white hover:bg-[#CCCCCC] hover:text-black">Search and find dates</button>
                             
                             </div>
                             <!--Form end-->
@@ -66,6 +66,49 @@
                     </div>
                 </div>
             <!--Background Image end-->
+
+                <!--Offer start-->
+
+                <div class=" mt-[200px] m-5">
+                    <h1 class="text-3xl py-3">Good Offers Right Now</h1>
+                    <h2 class="text-xl">Up to <b>50%</b> discount.</h2>
+                </div>
+
+                
+                       <div class="mx-5 gap-5 grid grid-cols-1 sm:grid-cols-4">
+                            <div class="float-left col-span-2">
+                                <img src="/image/sentmartin.jpg" alt="Sent Martin">
+                            </div>
+                       
+                            <div class="col-span-1 space-y-4">
+                                <img src="/image/chera-dip.jpg"  alt="chera dib">
+                                <img src="/image/coxbazar.jpg"  alt="Cox Bazar">
+                            </div>
+                            <div class="col-span-1 space-y-4">
+                                <img src="/image/sajek-vally.jpg" alt="Sajek Vally">
+                                <img src="/image/moinamoti.jpg" alt="Moynamoti">
+                            </div>                        
+                        </div> <br><hr><br>
+       
+                <!--Offer end-->
+
+
+                <div class="mx-auto grid grid-cols-4 gap-5">
+                    <div class="float-left col-span-2">
+                        <img src="/image/sentmartin.jpg" alt="Sent Martin">
+                        <span class="">Cox's Bazar</span>
+                    </div>
+
+                    <div class="col-span-1 space-y-4">
+                        <img src="/image/sentmartin.jpg" alt="Sent Martin">
+                        <img src="/image/sentmartin.jpg" alt="Sent Martin">
+                    </div>
+
+                    <div class="col-span-1 space-y-4">
+                        <img src="/image/sentmartin.jpg" alt="Sent Martin">
+                        <img src="/image/sentmartin.jpg" alt="Sent Martin">
+                    </div>
+                </div>
 
             
 </body>
