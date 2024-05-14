@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Templete with Tailwind and Js</title>
     <link rel="stylesheet" href="./src/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-[#f1f1f1]">
 
@@ -49,12 +50,12 @@
                                 <div class="flex pt-4 ml-4 mr-3 text-slate-700">
                                 <div class="float-left w-full">
                                     <p>From</p>
-                                    <input type="text" class="w-full h-10 border border-slate-400" placeholder="Departing from">
+                                    <input type="text" class="w-full h-10 border border-slate-400" placeholder="    Departing from">
                                 </div>
 
                                 <div class="float-end w-full ml-3">
                                     <p>To</p>
-                                    <input type="text" class="w-full  h-10 border border-slate-400" placeholder="Arriving at">
+                                    <input type="text" class="w-full  h-10 border border-slate-400" placeholder="   Arriving at">
                                 </div>
                                 </div>
 
@@ -78,19 +79,19 @@
                 
                         <!--Offer picture start-->
                        <div class="mx-5 gap-5 grid grid-cols-1 sm:grid-cols-4">
-                            <div class="float-left col-span-2 relative">
+                            <div class="float-left col-span-2">
                                 <img src="./image/sentmartin.jpg" alt="Sent Martin">
-                                <span class="-mt-8 md:-mt-12 text-white sm:font-semibold md:font-bold text-xl md:text-2xl ml-5 absolute">Sent Martin</span>
+                                <span class="-mt-8 md:-mt-12 text-white sm:font-semibold text-xl md:text-2xl ml-5 absolute">Sent Martin</span>
                             </div>
                        
-                            <div class="col-span-1 space-y-4">
+                            <div class="col-span-1 space-y-4 invisible sm:visible">
                                 <div>
                                     <img src="./image/chera-dip.jpg"  alt="chera dib">
-                                    <span class="-mt-8 md:-mt-12 text-white sm:font-semibold md:font-bold text-base md:text-2xl ml-2 absolute">Chera Dip</span>
+                                    <span class="-mt-8 md:-mt-12 text-white sm:font-semibold text-base md:text-2xl ml-2 absolute">Chera Dip</span>
                                 </div>
                                 <div>
                                     <img src="./image/coxbazar.jpg"  alt="Cox Bazar">
-                                    <span class="-mt-8 md:-mt-12 text-white sm:font-semibold md:font-bold text-base md:text-2xl ml-2 absolute">Cox's Bazar</span>
+                                    <span class="-mt-8 md:-mt-12 text-white sm:font-semibold text-base md:text-2xl ml-2 absolute">Cox's Bazar</span>
                                 </div>                    
                             </div>
 
@@ -98,11 +99,11 @@
                             <div class="col-span-1 space-y-4">
                                 <div>
                                     <img src="./image/sajek-vally.jpg" alt="Sajek Vally">
-                                    <span class="-mt-8 md:-mt-12 text-white sm:font-semibold md:font-bold text-base md:text-2xl ml-2 absolute">Sajek Vally</span>
+                                    <span class="-mt-8 md:-mt-12 text-white sm:font-semibold text-base md:text-2xl ml-2 absolute">Sajek Vally</span>
                                 </div>
                                 <div>
                                     <img src="./image/moinamoti.jpg" alt="Moynamoti">
-                                    <span class="-mt-8 md:-mt-12 text-white sm:font-semibold md:font-bold text-base md:text-2xl ml-2 absolute">Mainamati</span>
+                                    <span class="-mt-8 md:-mt-12 text-white sm:font-semibold text-base md:text-2xl ml-2 absolute">Mainamati</span>
                                 </div>                              
                             </div>                        
                         </div>
@@ -149,7 +150,7 @@
 
                                 <div class="text-lg">
                                     <p>E-main</p>
-                                    <input type="text" class="h-10 w-full" placeholder="Your Email address">
+                                    <input type="text" class="h-10 w-full" placeholder="    Your Email address">
                                 </div>
                                 <button class="my-3 text-lg h-10 w-28 bg-red-500 hover:bg-blue-100 hover:text-black">Subscribe</button>
                             </div>
@@ -161,7 +162,7 @@
                             <h1 class="mb-3 text-3xl text-slate-950">Contact</h1>
                             <p class="mb-2 text-lg text-slate-900">Let us book your next trip!</p>
 
-                            <div class="text-slate-800 text-lg ml-10">
+                            <div class="text-slate-800 text-lg italic">
                                 <p>
                                     <span>Malibagh, Dhaka</span>
                                 </p>
@@ -192,7 +193,6 @@
                                         <svg class="h-6 w-6 bg-slate-500 text-white hover:bg-slate-400"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />  <rect x="2" y="9" width="4" height="12" />  <circle cx="4" cy="4" r="2" /></svg>
                                     </div>
 
-                                    <p class="text-lg text-slate-400">Powered by Tailwind CSS</p>
                                 </footer>
                                 
                                 <!--footer end-->

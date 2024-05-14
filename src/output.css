@@ -554,12 +554,16 @@ video {
   --tw-contain-style:  ;
 }
 
-.absolute {
-  position: absolute;
+.visible {
+  visibility: visible;
 }
 
-.relative {
-  position: relative;
+.invisible {
+  visibility: hidden;
+}
+
+.absolute {
+  position: absolute;
 }
 
 .col-span-1 {
@@ -679,6 +683,14 @@ video {
 
 .mt-\[200px\] {
   margin-top: 200px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .flex {
@@ -912,6 +924,10 @@ video {
   font-weight: 600;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
@@ -993,6 +1009,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:visible {
+    visibility: visible;
+  }
+
   .sm\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
